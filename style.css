@@ -1,0 +1,1259 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.general_container{
+    background-color: #F5FCF4;
+   
+}
+p{
+    font-family: Raleway; 
+}
+h1,h2,h3,h4{
+    font-family: Poppins;
+}
+.container{
+    margin: auto;
+    width: 90%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo_div{
+    justify-content: space-between;
+    padding-top: 13px;
+  
+   
+}
+.logo_nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-family: Raleway;
+    font-size: 25px;
+  
+}
+.logo_nav a{
+   text-decoration: none;
+   color: #3B413A;
+}
+
+.logo_nav button{
+    font-family: Raleway;
+    font-size: 23px;
+    background-color:  #26643B;;
+    color: #E8E8E8;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+.first_nav{
+  
+
+    /* align-items: center;
+    /* gap: 25px; */
+    font-family: Raleway;
+    font-size: 18px;
+    display: none;
+    text-align: center;
+}
+
+.first_nav a{
+    text-decoration: none;
+    color: #3B413A;
+    display: flex;
+  
+    padding: 7px;
+    
+ }
+ /* .first_nav button{
+    font-family: Raleway;
+    font-size: px;
+    background-color:  #26643B;;
+    color: #E8E8E8;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+} */
+.ham{
+    display: none;
+}
+.flavour_div{
+ margin-top: 80px;
+ align-items: center;
+
+ 
+}
+.flavour_first_div{
+  flex-direction: column;
+  gap: 15px;
+  /* width: 50%; */
+  /* animation-name: first_div; */
+  animation-duration: 2s;
+  position: relative;
+  /* border: 1px solid red; */
+  text-align: center;
+  align-items: center;
+  
+}
+@keyframes first_div{
+ 0%{
+    left: -1000px;
+ }
+ 100%{
+    left: 0px;
+ }
+}
+.flavour_first_div h1{
+    font-size: 40px;
+    
+    color: #3B413A;
+    font-family: Poppins;
+}
+.flavour_first_div .first_p{
+    font-size: 25px;
+    /* border: 1px solid red; */
+     
+    color: #5B6359;
+}
+.flavour_inside_div{
+   align-items: center;
+   gap: 15px;
+    justify-content: center;
+   color: #26643B;
+   /* border: 1px solid red;  */
+   
+ 
+}
+.flavour_inside_div button{
+    font-family: Raleway;
+   font-size: 23px;
+    background-color:  #26643B;
+    color: #E8E8E8;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+   
+}
+.flavour_second_div{
+    /* width: 50%; */
+    /* animation-name: second_div; */
+    position: relative;
+    animation-duration: 2s;
+    /* border: 1px solid red; */
+    text-align: center;
+   
+}
+.flavour_second_div img{
+  font-style: normal;
+}
+@keyframes second_div{
+    0%{
+        right: -1000px;
+    }
+    100%{
+        right: 0px;
+    }
+}
+.all_time_div{
+    margin-top: 90px;
+   justify-content: center;
+    
+   /* align-items: center; */
+   gap: 40px;
+   /* border: 2px solid red; */
+}
+.all_border_time{
+    border: 1px solid  #D6E5D8;
+    background-color: #D6E5D8;
+    border-radius: 10px;
+    text-align: center;
+    height: 150px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    /* animation-name: all_time; */
+    animation-duration: 3s;
+    position: relative;
+}
+@keyframes all_time{
+ 0%{
+    bottom: -1000px;
+ }
+ 100%{
+    bottom: 0px;
+ }
+}
+.all_border_time h3{
+    font-family: Poppins;
+}
+
+.all_border_time p{
+    color:  #3B413A;
+}
+.sweet_potato_general{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+   justify-content: center;
+    /* border: 1px solid red; */
+    gap: 15px;
+   
+  
+   
+}
+.sweet_potato{
+    width:33%;
+    flex-direction: column;
+    border: 1px solid  #D6E5D8;
+    background-color: #D6E5D8;
+    border-radius: 20px;
+    padding: 0px 25px 10px 15px;
+    gap: 15px;
+    /* border: 1px solid red; */
+   
+}
+.sweet_potato h1{
+  color:  #3B413A;
+
+}
+.sweet_potato p{
+    font-size: 20px;
+    color: #5B6359;
+}
+
+.dollar_div{
+   gap: 10px;
+   flex-direction: column;
+}
+.dollar{
+    color: #26643B;
+}
+
+.food_3_png{
+    position:relative;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+    bottom: 80px;
+   
+   /* right: 10px; */
+   justify-content: center;
+   
+}
+.food_3_png img{
+    width: 90%;
+    border-radius: 15px;
+    
+}
+.food_1_png{
+    position:relative;
+    bottom: 70px;
+    justify-content: center;
+    /* border: 1px solid red; */
+   
+}
+.food_1_png img{
+    width: 90%;
+    border-radius: 15px;
+}
+
+.Our_specials{
+    width: 30%;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    gap: 10px;
+   
+    
+   
+}
+.Our_specials h1{
+  font-size: 40px;
+  color:#3B413A;
+}
+.Our_specials p{
+    font-size: 23px;
+    color: #26643B;
+}
+.our_special_btn_div{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.Our_specials button{
+    font-family: Raleway;
+    font-size: 23px;
+    background-color:  #26643B;;
+    color: #E8E8E8;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+   
+    
+}
+
+.top_dishes{
+    margin-top: 130px;
+    /* border: 1px solid red; */
+}
+.top_dishes h1{
+ color: #3B413A;
+ padding-bottom: 20px;
+ 
+}
+.general_dishes{
+    /* border: 2px solid blue; */
+    justify-content: space-between;
+}
+.all_top_dishes{
+   width: 32%;
+   /* border: 1px solid blue; */
+   border-radius: 20px;
+   align-items: center;
+   justify-content: space-between;
+   border: 1px solid  #D6E5D8;
+   background-color: #D6E5D8;
+   padding: 10px;
+}
+.dish_img{
+    width: 49%;
+    /* border: 1px solid red; */
+}
+.dish_img img{
+    width: 100%;
+  border-radius: 20px;
+}
+.vegan_dishes{
+    width: 49%;
+    /* border: 1px solid purple; */
+}
+
+.vegan_dishes p{
+    color:  #3B413A;
+        font-size: 30px;
+}
+
+
+.demo_dish_general{
+    /* border: 1px solid red; */
+    margin-top: 120px;
+    align-items: center;
+    background-color: #D6E5D8;
+    gap: 20px;
+    padding-left: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+.demo_dish_img_holder{
+    width: 60%;
+}
+.demo_dish_img {
+  width: 33%;
+  padding: 10px;
+ 
+
+}
+.demo_dish_img img{
+    width: 100%;
+    height: 330px;
+    border-radius: 10px;
+}
+.demo_dish_content{
+    width: 30%;
+ 
+}
+.demo_dish_content h3{
+    font-size: 25px;
+    color: #26643B;
+}
+.demo_dish_content h1{
+    font-size: 45px;
+    color:  #3B413A;
+}
+.demo_p{
+    font-size: 27px;
+    gap: 20px;
+}
+.first_dollar{
+    text-decoration: line-through;
+    color:  #3B413A;
+}
+.second_dollar{
+    color:  #26643B;
+    
+}
+.demo_dish_content img{
+   height: 17px;
+}
+.demo_dish_content button{
+    font-family: Raleway;
+    font-size: 23px;
+    background-color:  #26643B;
+    color: #E8E8E8;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 6px;
+}
+.illustration{
+    width: 12%;
+    position: absolute;
+    right: 1px;
+    bottom: 2px;
+    
+}
+
+.video_image{
+    margin-top: 130px;
+    /* border: 1px solid red; */
+     justify-content: space-between;
+}
+.first_video_image{
+   /* border: 1px solid blue; */
+   width: 65%;
+   height: 600px;
+   background-image: url(./eventsMedia1.png);
+   background-size: cover;
+   align-items: center;
+   justify-content:center;
+   background-position: center;
+
+}
+.my_img{
+    width: 15%;
+  
+}
+.second_video_image{
+    /* border: 1px solid green; */
+    width: 32%;
+    background-image: url(./eventsMedia2.png);
+    background-position: center;
+}
+.first_video_image img{
+    width: 100%;
+    height: 100%;
+ }
+ .second_video_image img{
+    width: 100%;
+    height: 100%;
+ }
+
+.event_general{
+    /* border: 1px solid red; */
+    margin-top: 150px;
+    justify-content: space-between;
+}
+
+.corperate_wedding{
+    /* border: 1px dashed red; */
+   
+    gap: 20px;
+    
+   
+}
+
+.corperate_events{
+     /* border: 3px dotted lime; */
+     background-color: #D6E5D8;
+     padding-top: 10px;
+     border-radius: 10px;
+}
+.wedding{
+   /* border: 1px solid blue; */
+   background-color: #D6E5D8;
+   padding-top: 10px;
+   border-radius: 10px;
+}
+.wedding_header{
+    font-size: 28px;
+    color:#3B413A;
+}
+.cor_img{
+ /* border: 2px dashed red; */
+  text-align: center;
+  padding: 7px;
+ 
+}
+.cor_img img{
+    width: 90%;
+    border-radius: 10px;
+    
+}
+.cor_details{
+    /* margin-top: 10px; */
+    padding:0px 25px 20px 10px;
+    font-size: 20px;
+    /* color:  #3B413A; */
+    color :#5B6359;
+    /* border: 1px solid blue; */
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.book_for_event {
+  /* border: 1px solid blue; */
+ 
+  padding: 20px 30px 0px 60px;
+  flex-direction: column;
+  
+}
+.book_for_event_details{
+    gap: 15px;
+}
+.book_first{
+   font-size: 40px;
+   color : #3B413A;
+}
+.book_second{
+    font-size: 25px;
+    color :#5B6359;
+}
+
+
+.book_for_event button{
+    font-family: Raleway;
+    font-size: 23px;
+    background-color:  #26643B;
+    color: #E8E8E8;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.me{
+    background-image: url(./eventsMedia1.png);
+    height: 400px;
+}
+.why_choose_us{
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    /* border: 1px solid red;   */
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.our_food{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color:  #3B413A;
+}
+.quality_us{
+    /* border: 1px solid red; */
+    font-size: 20px;
+   
+    /* text-align: center; */
+    gap: 15px;
+    padding-top: 10px;
+    height: 150px;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #D6E5D8;
+  
+    border-radius: 10px;
+}
+.choose_us_details{
+ /* border: 1px solid blue; */
+ font-size: 20px;
+ padding: 0px 20px;
+
+  color :#5B6359;
+}
+.choose_us_img{
+    /* border: 1px solid green; */
+    justify-content: center;
+    gap: 15px;
+    
+    color:#3B413A;
+}
+.what_our_customers{
+    margin-top: 110px;
+    /* border: 1px solid blue; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    justify-content: center;
+    gap: 20px;
+}
+.what_our_customers > p{
+    font-size: 42px;
+}
+
+.what_our_customer_want{
+    /* border: 1px solid blue; */
+    padding: 7px;
+    background-color: #D6E5D8;
+   width: 48%;
+   border-radius: 9px;
+}
+.want_img{
+    /* border: 1px solid red; */
+    text-align: center;
+   width: 100%;
+   
+}
+.what_our_customers_details{
+    flex-direction: column;
+    gap:14px;
+    padding-left: 10px;
+    
+} 
+.what_our_customers_details h4{
+    font-size: 20px;
+    color: #3B413A;
+}
+.what_our_customers_details p{
+    font-size: 20px;
+    color:  #3F3C3C;
+}
+.want_img img{
+    height: 230px;
+    width: 100%;
+    border-radius: 10px;
+}
+.wan_img img{
+    height:260px;
+}
+.join_news_letter{
+    margin-top: 150px;
+    background-color: #A2DE96;
+    align-items: center;
+    height: 190px;
+    /* border: 1px solid red; */
+}
+.join_news_child{
+   width: 95%;
+   align-items: center;
+   justify-content: space-between;
+   /* height:70%; */
+   height: fit-content;
+   margin: auto;
+    /* border: 1px solid red; */
+}
+.join_news_details{
+   width: 43%;
+   flex-direction: column;
+   gap: 18px;
+   /* border: 1px solid red; */
+}
+
+.join_news_details h1{
+    font-size: 42px;
+}
+.join_news_details p{
+    font-size: 20px;
+}
+.join_news_form{
+ /* border: 1px solid blue; */
+  width: 57%;
+  height: fit-content;
+  justify-content: flex-end;
+}
+.label_email{
+    font-size: 18px;
+    padding-left: 22px;
+    padding-right: 125px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  
+    border-top-left-radius: 5px;
+    border-top-right-radius: none;
+   border-bottom-left-radius: 5px;
+    border: none;
+  
+    /* border: 1px solid red; */
+}
+.form_button{
+    font-size: 20px;
+    padding: 15px 30px;
+    /* margin-right: 10px; */
+    color: #D6E5D8;
+    border-top-left-radius: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+   border-bottom-left-radius: none;
+    border: none;
+    background-color: #26643B;
+    /* border: 1px solid red; */
+ }
+ .last_footer{
+    margin-top: 110px;
+    background-color: #D6E5D8;
+    height: 380px;
+ }
+ .last_footer_child{
+    justify-content: space-between;
+ }
+
+ .footer_child{
+    width: 25%;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+ 
+ }
+ .child_footer{
+    width: 21%;
+    margin-right: 22px;
+ }
+  .footer_child_image img{
+    width: 60%;
+ }
+  .fb_image img{
+     width: 16%;
+  }
+  .my_last_div{
+     margin-top: 30px;
+     font-size: 20px;
+  }
+/* Desktop Devices Large, Xlarge, XXLarge */
+/* Large */
+@media(min-width:992px){
+    .flavour_inside_div{
+        font-size: 25px;
+    }
+    .col-lg-1{
+        width: 8.33%;
+   }
+   .col-lg-2{
+    width: 16.66%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-4{
+        width: 33.33%;
+    }
+    .col-lg-5{
+        width: 41.66%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-7{
+        width: 58.33%;
+    }
+    .col-lg-8{
+        width: 66.66%;
+    }
+    .col-lg-9{
+        width: 75%;
+    }
+    .col-lg-10{
+        width: 83.33%;
+    }
+    .col-lg-11{
+        width: 91.66%;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+}
+   /* special quaries  */
+@media(max-width:1233px){
+    .top_dishes{
+       display: 1;
+    }
+    .general_dishes{
+        gap: 23px;
+        
+    }
+    .all_top_dishes{
+        width: 48%;
+    }
+}
+/* Tablet Devices - Small and Medium */
+/* Medium Devices */
+@media(max-width:991px){
+  
+    .flavour_inside_div{
+        font-size: 25px;
+    }
+    .all_top_dishes{
+        width: 48%;
+    }
+  
+    .demo_third{
+        display: none;
+    }
+    .demo_dish_content h1{
+        font-size: 35px;
+    }
+    .demo_p{
+        font-size: 24px;
+    }
+    .first_video_image{
+        height: 450px;
+    }
+    .cor_img img{
+        width: 100%;
+    }
+    .book_for_event {
+        padding: 0px;
+        font-size: 15px;
+    }
+    .book_for_event_details{
+        gap: 7px;
+    }
+    .book_first{
+        font-size: 35px;
+     }
+    .book_second{
+        font-size: 20px;
+    }
+    .why_choose_us{
+       
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+       text-align: center;
+    }
+    .choose_us_details{
+        padding: 0px 5px;
+    }
+    .quality_us{
+        font-size: 20px;
+    }
+    .our_food{
+        font-size: 25px;
+    }
+    .choose_us_details{
+        font-size: 20px;
+    }
+    .want_img img{
+        height: 200px;
+        width: 80%;
+    }
+    .wan_img img{
+        height: 230px;
+    }
+    .what_our_customers > p{
+        font-size: 35px;
+    }
+    .join_news_details h1{
+        font-size: 33px;
+    }
+    .join_news_details p{
+        font-size: 18px;
+    }
+    .label_email{
+      
+        padding-left: 22px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+    }
+    .form_button{
+        
+        padding: 10px 30px;
+        
+    }
+    .footer_child{
+        font-size: 19px;
+    }
+
+
+
+
+
+    .col-md-1{
+        width: 8.33%;
+   }
+   .col-md-2{
+    width: 16.66%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .col-md-5{
+        width: 41.66%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-7{
+        width: 58.33%;
+    }
+    .col-md-8{
+        width: 66.66%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-10{
+        width: 83.33%;
+    }
+    .col-md-11{
+        width: 91.66%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+}
+     /* special quries  */
+@media(max-width:811px)  {
+    .general_dishes{
+        gap: 23px;
+        
+    }
+    .all_top_dishes{
+        width: 100%;
+    }
+    .dish_img{
+        width: 45%;
+    }
+    .vegan_dishes p{
+        font-size:25px;
+    }
+
+}   
+/* Small Devices */
+@media (max-width:767px){
+    .first_nav{
+        display: block;     
+
+   }
+    .logo_nav{
+        display: none;
+        gap: 100px;
+        flex-direction: column;
+       }
+       /* .ham{
+        display: block;
+       } */
+       .flavour_first_div{
+        order: 2;
+       }
+       .flavour_second_div{
+         order: 1;
+       }
+
+       .flavour_first_div h1{
+        font-size: 25px;
+        
+    }
+    .flavour_first_div .first_p{
+        font-size: 20px;
+    }
+    .flavour_inside_div p{
+        font-size: 18px;
+    }
+    .flavour_inside_div button{
+       font-size: 15px;
+    }
+    
+    .demo_dish_general{
+        padding: 10px;
+    }
+    .demo_dish_content h3{
+        font-size: 20px;
+    }
+    .demo_dish_content h1{
+        font-size: 25px;
+    }
+    .demo_p{
+        font-size: 20px;
+    }
+    .illustration{
+        width: 20%;
+    }
+    .top_dishes{
+        margin-top: 80px;
+    }
+    .demo_dish_general{
+        margin-top: 80px;
+    }
+    .video_image{
+        margin-top: 80px;
+    }
+    .event_general{
+        margin-top: 80px;
+    }
+    .first_video_image{
+        height: 350px;
+    }
+    .why_choose_us{
+       gap:10px;
+    }
+    .want_img img{
+        width: 100%;
+      
+    }
+    .what_our_customers{
+        width: 75%;
+    }
+    .what_our_customers_details p{
+        font-size: 18px;
+        color:  #3F3C3C;
+    }
+    .what_our_customers > p{
+        font-size: 23px;
+    }
+    .join_news_form{
+        justify-content: space-between;
+      
+    }
+    .label_email{
+        font-size: 13px;
+        padding-left: 22px;
+        padding-right: 125px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+     
+    }
+    .form_button{
+        padding-top: 10px;
+        padding-bottom: 12px;
+    }
+    .child_footer p{
+        width: 100%;
+    }
+    .last_footer {
+        height: fit-content;
+        padding: 15px;
+    }
+    .last_footer_child{
+        flex-direction: column;
+        gap: 23px;
+    }
+    .footer_child{
+       gap: 15px;
+    }
+    .footer_b{
+        font-size: 22px;
+    }
+    .footer_child_image img{
+        width: 30%;
+     }
+     .fb_image img{
+        width: 7%;
+     }
+     .my_last_div{
+        
+        font-size:15px;
+        justify-content: center;
+        text-align: center;
+     }
+     
+   
+    
+
+
+
+
+    .col-sm-1{
+        width: 8.33%;
+   }
+   .col-sm-2{
+    width: 16.66%;
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-4{
+        width: 33.33%;
+    }
+    .col-sm-5{
+        width: 41.66%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-7{
+        width: 58.33%;
+    }
+    .col-sm-8{
+        width: 66.66%;
+    }
+    .col-sm-9{
+        width: 75%;
+    }
+    .col-sm-10{
+        width: 83.33%;
+    }
+    .col-sm-11{
+        width: 91.66%;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+}
+/* Mobile Devices - Extra Small */
+/* Extra Small Devices */
+@media(max-width:575px){
+    .sweet_potato_general{
+        gap: 80px;
+    }
+    .food_1_png{
+        position:relative;
+        left: 30px;
+    }
+    .food_3_png{
+        position:relative;
+        left: 30px;
+    }
+    .dollar{
+        font-size: 15px;
+    }
+    .top_dishes h1{
+        font-size: 27px;
+    }
+    .demo_dish_content h1{
+        font-size: 23px;
+    }
+    .demo_dish_img img{
+        width: 100%;
+        height: 220px;
+    }
+    .illustration{
+        width: 23%;
+    }
+    .demo_dish_general{
+       padding: 2px;
+       }
+       .first_video_image{
+        height: 300px;
+    }
+
+    .corperate_events, .wedding{
+        padding: 0px;
+    }
+       .cor_img{
+        padding: 0px;
+       }
+       .cor_details{
+ padding:0px 5px 5px 5px;
+ font-size: 15px;
+       }
+       .cor_img img{
+        width: 100%;
+        height: 90%;  
+    }
+   
+   .book_first{
+     font-size: 23px;
+   }
+   .book_second{
+    font-size: 18px;
+   }
+   .wedding_header{
+    font-size: 20px;
+   }
+   .book_for_event button{
+     font-size: 18px;
+     padding: 6px;
+     border-radius: 7px;
+   }
+   .what_our_customers{
+    width: 85%;
+   }
+   .label_email{
+    font-size: 13px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.form_button{
+   
+    padding-top: 10px;
+    padding-bottom: 12px;
+   
+}
+.footer_child{
+    font-size: 17px;
+    width: 100%;
+}
+.footer_b{
+    font-size: 19px;
+}
+
+
+
+   .col-1{
+        width: 8.33%;
+   }
+   .col-2{ 
+    width: 16.66%;
+    }
+    .col-3{
+        width: 25%;
+    }
+    .col-4{
+        width: 33.33%;
+    }
+    .col-5{
+        width: 41.66%;
+    }
+    .col-6{
+        width: 50%;
+    }
+    .col-7{
+        width: 58.33%;
+    }
+    .col-8{
+        width: 66.66%;
+    }
+    .col-9{
+        width: 75%;
+    }
+    .col-10{
+        width: 83.33%;
+    }
+    .col-11{
+        width: 91.66%;
+    }
+    .col-12{
+        width: 100%;
+    }
+}
+
+
+@media(max-width:435px){
+    .col-me-7{
+        width: 58.33%;
+    }
+    .col-me-12{
+        width: 100%;
+    }
+    .want_img img{
+        height: 180px;
+        width: 50%;
+    }  
+    .what_our_customers_details{
+     align-items: center;
+    }  
+    .vegan_dishes p{
+        font-size:17px;
+    }
+    .label_email{
+        font-size: 10px;
+        padding-right: 5px;
+        padding: 7px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        
+    }
+    .form_button{
+        
+        padding-top: 10px;
+        padding-bottom: 12px;
+        padding-left: 13px;
+        padding-right: 13px;
+       
+    }
+}
+   
